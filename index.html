@@ -3,143 +3,1022 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Portfolio</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Portfolio of Sudha Akhil Eswar Reddy - Computer Science Engineering Student">
+
+    <title>Sudha Akhil Eswar Reddy | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <h2>My Portfolio</h2>
+    <!-- AMBIENT BACKGROUND LIGHTS -->
 
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="ambient ambient-three"></div>
 
 
-    <!-- Home Section -->
-    <section id="home">
+    <!-- NAVIGATION -->
 
-        <h1>Hello, I'm Sudha Akhil eswar reddy</h1>
+    <header>
 
-        <h3>Computer Science Engineering Student</h3>
+        <nav class="navbar">
 
-        <p>
-            Welcome to my personal portfolio website.
-        </p>
+            <a href="#home" class="logo">
+                Akhil<span>.</span>
+            </a>
 
-    </section>
+            <ul class="nav-links">
 
+                <li>
+                    <a href="#home">Home</a>
+                </li>
 
-    <!-- About Section -->
-    <section id="about">
+                <li>
+                    <a href="#about">About</a>
+                </li>
 
-        <h2>About Me</h2>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
 
-        <p>
-            I am a Computer Science Engineering student interested in
-            programming, web development and technology.
-        </p>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
 
-    </section>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
 
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
 
-    <!-- Education Section -->
-    <section id="education">
-
-        <h2>Education</h2>
-
-        <h3>B.Tech - Computer Science Engineering</h3>
-
-        <p>SAI university</p>
-
-        <p>2025 - 2029</p>
-
-    </section>
+            </ul>
 
 
-    <!-- Skills Section -->
-    <section id="skills">
+            <a href="resume.pdf"
+               target="_blank"
+               class="nav-resume">
 
-        <h2>Skills</h2>
+                Resume
 
-        <ul>
-            <li>Python</li>
-            <li>C Programming</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
+            </a>
 
-    </section>
+        </nav>
+
+    </header>
 
 
-    <!-- Projects Section -->
-    <section id="projects">
+    <main>
 
-        <h2>Projects</h2>
 
-        <div class="project">
+        <!-- HOME SECTION -->
 
-            <h3>Project 1</h3>
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <div class="status">
+
+                    <span class="status-dot"></span>
+
+                    Computer Science Engineering Student
+
+                </div>
+
+
+                <p class="intro">
+                    HELLO, I'M
+                </p>
+
+
+                <h1>
+
+                    Sudha Akhil
+                    <br>
+
+                    <span>
+                        Eswar Reddy
+                    </span>
+
+                </h1>
+
+
+                <div class="changing-text">
+
+                    I am a
+
+                    <span id="typing-text"></span>
+
+                    <span class="cursor">|</span>
+
+                </div>
+
+
+                <p class="hero-description">
+
+                    A Computer Science Engineering student at Sai University
+                    passionate about programming, web development,
+                    problem solving and continuously learning new technologies.
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+
+                    <a href="#about"
+                       class="btn primary-btn">
+
+                        Explore Portfolio
+
+                    </a>
+
+
+                    <a href="resume.pdf"
+                       target="_blank"
+                       class="btn secondary-btn">
+
+                        View Resume
+
+                    </a>
+
+
+                    <a href="https://github.com/sudhaakhil"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn secondary-btn">
+
+                        GitHub
+
+                    </a>
+
+
+                    <a href="https://www.linkedin.com/in/sudha-akhil-060a4b3b9/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn secondary-btn">
+
+                        LinkedIn
+
+                    </a>
+
+                </div>
+
+
+                <div class="scroll-message">
+
+                    <span>
+                        Scroll to explore
+                    </span>
+
+                    <div class="scroll-line"></div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- DECORATIVE CODE CARD -->
+
+            <div class="hero-visual">
+
+                <div class="orbit orbit-one"></div>
+
+                <div class="orbit orbit-two"></div>
+
+
+                <div class="developer-card">
+
+                    <div class="code-header">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+
+                    <div class="code-content">
+
+                        <p>
+
+                            <span class="code-purple">
+                                const
+                            </span>
+
+                            student =
+
+                            <span class="code-blue">
+                                {
+                            </span>
+
+                        </p>
+
+
+                        <p class="indent">
+
+                            name:
+
+                            <span class="code-green">
+                                "Akhil"
+                            </span>,
+
+                        </p>
+
+
+                        <p class="indent">
+
+                            course:
+
+                            <span class="code-green">
+                                "CSE"
+                            </span>,
+
+                        </p>
+
+
+                        <p class="indent">
+
+                            university:
+
+                            <span class="code-green">
+                                "Sai University"
+                            </span>,
+
+                        </p>
+
+
+                        <p class="indent">
+
+                            learning:
+
+                            <span class="code-green">
+                                "Every Day"
+                            </span>
+
+                        </p>
+
+
+                        <p>
+
+                            <span class="code-blue">
+                                }
+                            </span>;
+
+                        </p>
+
+
+                        <br>
+
+
+                        <p>
+
+                            student.
+
+                            <span class="code-yellow">
+                                buildFuture
+                            </span>();
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ABOUT SECTION -->
+
+        <section id="about"
+                 class="section">
+
+            <div class="section-heading">
+
+                <p>
+                    ABOUT ME
+                </p>
+
+                <h2>
+
+                    A little about
+                    <span>who I am</span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="about-grid">
+
+
+                <div class="glass-card about-card">
+
+                    <h3>
+                        Hello, I'm Akhil 👋
+                    </h3>
+
+
+                    <p>
+
+                        I am Sudha Akhil Eswar Reddy,
+                        a Computer Science Engineering student
+                        at Sai University.
+
+                    </p>
+
+
+                    <p>
+
+                        I am interested in programming,
+                        web development, software technologies
+                        and problem solving.
+
+                    </p>
+
+
+                    <p>
+
+                        My goal is to continuously strengthen
+                        my technical knowledge and use what
+                        I learn to build meaningful and useful applications.
+
+                    </p>
+
+                </div>
+
+
+                <div class="quick-details">
+
+
+                    <div class="detail-card">
+
+                        <span class="detail-number">
+                            CSE
+                        </span>
+
+                        <span>
+                            Branch
+                        </span>
+
+                    </div>
+
+
+                    <div class="detail-card">
+
+                        <span class="detail-number">
+                            5+
+                        </span>
+
+                        <span>
+                            Technical Skills
+                        </span>
+
+                    </div>
+
+
+                    <div class="detail-card">
+
+                        <span class="detail-number">
+                            89.99%
+                        </span>
+
+                        <span>
+                            Class X
+                        </span>
+
+                    </div>
+
+
+                    <div class="detail-card">
+
+                        <span class="detail-number">
+                            74%
+                        </span>
+
+                        <span>
+                            Class XII
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- EDUCATION -->
+
+        <section id="education"
+                 class="section alternate">
+
+            <div class="section-heading">
+
+                <p>
+                    MY JOURNEY
+                </p>
+
+                <h2>
+
+                    Education
+                    <span>Timeline</span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="timeline">
+
+
+                <!-- BTECH -->
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+
+                    <div class="glass-card education-card">
+
+                        <span class="education-type">
+                            Undergraduate
+                        </span>
+
+
+                        <h3>
+                            B.Tech - Computer Science Engineering
+                        </h3>
+
+
+                        <p>
+                            Sai University
+                        </p>
+
+
+                        <p class="education-description">
+
+                            Currently developing knowledge in programming,
+                            algorithms, web technologies, software development
+                            and computer science fundamentals.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- CLASS XII -->
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+
+                    <div class="glass-card education-card">
+
+                        <span class="education-type">
+                            Class XII
+                        </span>
+
+
+                        <h3>
+                            CBSE
+                        </h3>
+
+
+                        <p>
+                            Bheeram Sreedhar Reddy
+                        </p>
+
+
+                        <div class="score">
+                            74%
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- CLASS X -->
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+
+                    <div class="glass-card education-card">
+
+                        <span class="education-type">
+                            Class X
+                        </span>
+
+
+                        <h3>
+                            ICSE
+                        </h3>
+
+
+                        <p>
+                            Hyderabad Public School
+                        </p>
+
+
+                        <div class="score">
+                            89.99%
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- SKILLS -->
+
+        <section id="skills"
+                 class="section">
+
+            <div class="section-heading">
+
+                <p>
+                    WHAT I KNOW
+                </p>
+
+                <h2>
+
+                    Technical
+                    <span>Skills</span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        PY
+                    </div>
+
+                    <h3>
+                        Python
+                    </h3>
+
+                    <p>
+
+                        Programming fundamentals,
+                        logical thinking and problem solving.
+
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        C
+                    </div>
+
+                    <h3>
+                        C Programming
+                    </h3>
+
+                    <p>
+
+                        Core programming concepts
+                        and logic building.
+
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        JV
+                    </div>
+
+                    <h3>
+                        Java
+                    </h3>
+
+                    <p>
+
+                        Object-oriented programming
+                        and Java fundamentals.
+
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        HT
+                    </div>
+
+                    <h3>
+                        HTML
+                    </h3>
+
+                    <p>
+
+                        Creating structured
+                        and semantic web pages.
+
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        CS
+                    </div>
+
+                    <h3>
+                        CSS
+                    </h3>
+
+                    <p>
+
+                        Responsive layouts,
+                        animations and modern styling.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- PROJECT -->
+
+        <section id="projects"
+                 class="section alternate">
+
+            <div class="section-heading">
+
+                <p>
+                    MY WORK
+                </p>
+
+                <h2>
+
+                    Featured
+                    <span>Project</span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="project-container">
+
+
+                <article class="project-card">
+
+
+                    <div class="project-top">
+
+                        <span class="project-number">
+                            01
+                        </span>
+
+                        <span class="project-status">
+                            Live Project
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        Personal Portfolio Website
+                    </h3>
+
+
+                    <p>
+
+                        A responsive personal portfolio website
+                        designed and developed using HTML,
+                        CSS and JavaScript.
+
+                        The website showcases my education,
+                        technical skills, resume, GitHub,
+                        LinkedIn and contact information.
+
+                    </p>
+
+
+                    <div class="technology-list">
+
+                        <span>HTML</span>
+
+                        <span>CSS</span>
+
+                        <span>JavaScript</span>
+
+                        <span>GitHub Pages</span>
+
+                    </div>
+
+
+                    <div class="project-links">
+
+
+                        <!-- LIVE WEBSITE -->
+
+                        <a href="https://sudhaakhil.github.io/portfolio/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            View Live Site ↗
+
+                        </a>
+
+
+                        <!-- REPOSITORY -->
+
+                        <a href="https://github.com/sudhaakhil/portfolio"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            Source Code ↗
+
+                        </a>
+
+
+                        <!-- GITHUB -->
+
+                        <a href="https://github.com/sudhaakhil"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            GitHub Profile ↗
+
+                        </a>
+
+
+                        <!-- LINKEDIN -->
+
+                        <a href="https://www.linkedin.com/in/sudha-akhil-060a4b3b9/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            LinkedIn ↗
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- RESUME -->
+
+        <section id="resume"
+                 class="resume-section">
+
+            <div class="resume-glow"></div>
+
+
+            <div class="resume-content">
+
+                <p class="small-heading">
+                    MY RESUME
+                </p>
+
+
+                <h2>
+
+                    Want to know more
+                    <br>
+                    about me?
+
+                </h2>
+
+
+                <p>
+
+                    View my resume for a quick overview
+                    of my education and technical skills.
+
+                </p>
+
+
+                <a href="resume.pdf"
+                   target="_blank"
+                   class="resume-main-btn">
+
+                    View / Download Resume
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- CONTACT -->
+
+        <section id="contact"
+                 class="section">
+
+            <div class="section-heading">
+
+                <p>
+                    GET IN TOUCH
+                </p>
+
+
+                <h2>
+
+                    Let's
+                    <span>Connect</span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+
+                <!-- EMAIL -->
+
+                <a href="mailto:sudhaakhil60@gmail.com"
+                   class="contact-card">
+
+                    <div class="contact-icon">
+                        @
+                    </div>
+
+
+                    <div>
+
+                        <small>
+                            Email
+                        </small>
+
+                        <p>
+                            sudhaakhil60@gmail.com
+                        </p>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- PHONE -->
+
+                <div class="contact-card">
+
+                    <div class="contact-icon">
+                        ☎
+                    </div>
+
+
+                    <div>
+
+                        <small>
+                            Phone
+                        </small>
+
+                        <p>
+                            74169429XX
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- GITHUB -->
+
+                <a href="https://github.com/sudhaakhil"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-card">
+
+                    <div class="contact-icon">
+                        GH
+                    </div>
+
+
+                    <div>
+
+                        <small>
+                            GitHub
+                        </small>
+
+                        <p>
+                            github.com/sudhaakhil
+                        </p>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- LINKEDIN -->
+
+                <a href="https://www.linkedin.com/in/sudha-akhil-060a4b3b9/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-card">
+
+                    <div class="contact-icon">
+                        IN
+                    </div>
+
+
+                    <div>
+
+                        <small>
+                            LinkedIn
+                        </small>
+
+                        <p>
+                            Sudha Akhil
+                        </p>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div>
+
+            <h3>
+                Akhil<span>.</span>
+            </h3>
 
             <p>
-                Description of my project will be added here.
+
+                Designed & developed by
+                Sudha Akhil Eswar Reddy
+
             </p>
 
         </div>
 
-    </section>
-
-
-    <!-- Resume Section -->
-    <section id="resume">
-
-        <h2>Resume</h2>
-
-        <p>You can view or download my resume below.</p>
-
-        <a href="resume.pdf" target="_blank">
-            View Resume
-        </a>
-
-    </section>
-
-
-    <!-- Contact Section -->
-    <section id="contact">
-
-        <h2>Contact Me</h2>
-
-        <p>sudhaakhil60@gmail.com</p>
 
         <p>
-            GitHub:
-            <a href="#" target="_blank">My GitHub</a>
+            © 2026 All Rights Reserved
         </p>
-
-        <p>
-            LinkedIn:
-            <a href="#" target="_blank">My LinkedIn</a>
-        </p>
-
-    </section>
-
-
-    <footer>
-
-        <p>© 2026 My Portfolio</p>
 
     </footer>
 
